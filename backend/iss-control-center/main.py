@@ -40,6 +40,4 @@ def webhook_github(payload: GitHubWebhookPayload):
 
     # TODO Send update event to message bus, so it could clone repo and check for diffs
 
-    (payload.dict().keys())
-
-    return True
+    return payload.dict()
