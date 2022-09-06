@@ -31,7 +31,7 @@ def read_root():
 # TODO Think on how to accept payments
 # TODO Think on giving rewards
 
-# TODO Handle GitHub webhook
+# TODO Check GitHub secret to evade processing non-trusted requests
 
 
 @app.post("/webhook/github", status_code=201)
