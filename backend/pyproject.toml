@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iss-control-center"
+version = "0.1.0"
+description = "Server to manage projects state"
+authors = ["Kirill K <kovalev.kirill.a@gmail.com>"]
+license = "WTFPL"
+readme = "README.md"
+packages = [
+  {include = "iss-control-center"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.79.0"
+uvicorn = "0.18.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
